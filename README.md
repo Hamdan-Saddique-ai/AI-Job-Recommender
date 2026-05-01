@@ -5,6 +5,7 @@ An intelligent job recommendation system that analyzes your **skills, experience
 
 ---
 ## Screen Short
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/c69b8789-a4ed-4415-ac6d-82036fc74bec" />
 
 ## ✨ Features
 
