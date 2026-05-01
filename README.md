@@ -4,7 +4,7 @@
 An intelligent job recommendation system that analyzes your **skills, experience, and interests** to suggest the most relevant jobs with high accuracy.
 
 ---
-## Screen Short
+## Demo Website
 <img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/c69b8789-a4ed-4415-ac6d-82036fc74bec" />
 
 ## ✨ Features
@@ -24,7 +24,9 @@ Layer	Technology
 ⚙️ Backend	Flask (Python)          
 🧠 AI/ML	scikit-learn, pandas          
 💾 Database	CSV (pandas)         
-## 🎬 System Workflow           
+## 🎬 System Workflow    
+<img width="1115" height="575" alt="Image" src="https://github.com/user-attachments/assets/80bacb28-c3dc-403c-a7ca-a93e18a002ef" />
+
 INPUT → PROCESS → OUTPUT
 
 Skills / Resume
