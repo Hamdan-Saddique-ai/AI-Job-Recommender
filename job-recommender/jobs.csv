@@ -1,0 +1,11 @@
+title,company,location,salary,description,skills_required,category,experience_required
+Senior Python Developer,TechCorp,New York,$120k - $150k,Looking for experienced Python developer with strong backend skills,"Python,Django,SQL,API Development",Software Development,3
+Machine Learning Engineer,AI Solutions,San Francisco,$140k - $180k,Build and deploy ML models for real-world applications,"Python,TensorFlow,PyTorch,ML Algorithms",AI/ML,2
+Frontend Developer,WebStudio,Austin,$90k - $120k,Create responsive and interactive web applications,"React,JavaScript,CSS,HTML",Web Development,1
+Data Scientist,DataFlow,Seattle,$130k - $160k,Analyze complex data and derive insights,"Python,Pandas,SQL,Statistics,Tableau",Data Science,3
+Full Stack Developer,StartupHub,Remote,$100k - $140k,Build end-to-end web applications,"React,Node.js,MongoDB,Express",Web Development,2
+DevOps Engineer,CloudTech,Chicago,$125k - $155k,Manage cloud infrastructure and CI/CD pipelines,"AWS,Docker,Kubernetes,Jenkins",DevOps,4
+Java Developer,EnterpriseSoft,Boston,$110k - $140k,Develop enterprise Java applications,"Java,Spring Boot,Hibernate,SQL",Software Development,3
+AI Research Scientist,DeepMind Labs,Remote,$160k - $200k,Research and implement cutting-edge AI algorithms,"Python,PyTorch,Transformers,Computer Vision",AI/ML,5
+Backend Engineer,API First,Denver,$105k - $135k,Design and implement scalable APIs,"Python,FastAPI,PostgreSQL,Redis",Software Development,2
+Cloud Architect,CloudNative,Seattle,$150k - $190k,Design cloud solutions and infrastructure,"AWS,Azure,Terraform,Python",DevOps,5
