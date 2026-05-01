@@ -4,6 +4,7 @@
 An intelligent job recommendation system that analyzes your **skills, experience, and interests** to suggest the most relevant jobs with high accuracy.
 
 ---
+## Screen Short
 
 ## ✨ Features
 
