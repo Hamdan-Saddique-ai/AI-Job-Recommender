@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Job Recommender - Smart Career Matcher</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">
+                <i class="fas fa-robot"></i>
+                <span>AI Job Recommender</span>
+            </div>
+            <div class="header-badge">
+                <i class="fas fa-brain"></i> AI-Powered Matching
+            </div>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1>Find Your <span class="gradient-text">Dream Job</span> with AI</h1>
+            <p>Our intelligent system analyzes your skills and interests to match you with perfect career opportunities</p>
+        </div>
+
+        <!-- Main Card -->
+        <div class="main-card">
+            <div class="input-section">
+                <div class="form-group">
+                    <label>
+                        <i class="fas fa-code"></i> Your Skills
+                        <span class="hint">(Separate with commas)</span>
+                    </label>
+                    <input type="text" id="skills" placeholder="e.g., Python, JavaScript, SQL, React, Machine Learning">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>
+                            <i class="fas fa-briefcase"></i> Experience (Years)
+                        </label>
+                        <input type="number" id="experience" min="0" max="20" value="2">
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            <i class="fas fa-heart"></i> Interests
+                            <span class="hint">(Optional)</span>
+                        </label>
+                        <input type="text" id="interests" placeholder="e.g., AI, Web Dev, Cloud">
+                    </div>
+                </div>
+
+                <button class="btn-primary" onclick="getRecommendations()">
+                    <i class="fas fa-magic"></i> Find Matching Jobs
+                </button>
+
+                <div class="user-id-section">
+                    <label>
+                        <i class="fas fa-user"></i> User ID (for history)
+                    </label>
+                    <input type="text" id="user_id" placeholder="Your name or ID" value="user123">
+                </div>
+            </div>
+
+            <!-- Loading Animation -->
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>AI is analyzing your profile...</p>
+            </div>
+
+            <!-- Results Section -->
+            <div id="results" class="results-section hidden">
+                <div class="results-header">
+                    <h2>
+                        <i class="fas fa-chart-line"></i> 
+                        Top Matches
+                        <span id="resultCount" class="badge"></span>
+                    </h2>
+                    <button class="btn-secondary" onclick="clearResults()">
+                        <i class="fas fa-search"></i> New Search
+                    </button>
+                </div>
+                <div id="jobsList" class="jobs-grid"></div>
+            </div>
+
+            <!-- History Section -->
+            <div class="history-section">
+                <div class="history-header" onclick="toggleHistory()">
+                    <h3>
+                        <i class="fas fa-history"></i> Search History
+                    </h3>
+                    <i class="fas fa-chevron-down" id="historyIcon"></i>
+                </div>
+                <div id="historyContent" class="history-content hidden">
+                    <div id="historyList" class="history-list"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Powered by Advanced AI Matching Algorithm | Find your perfect career match</p>
+        </div>
+    </div>
+
+    <script src="../static/script.js"></script>
+</body>
+</html>
